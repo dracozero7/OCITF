@@ -15,7 +15,7 @@ variable "fingerprint" {
 }
 
 variable "private_key_path" {
-  default = "/home/opc/.oci"
+  default = "/home/opc/.oci/oci_api_key.pem"
 }
 variable "AD" {
   default = "2"
