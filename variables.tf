@@ -22,7 +22,7 @@ variable "AD" {
 }
 
 variable "region" {
-  default = "us-ashburn-2"
+  default = "us-ashburn-1"
 }
 
 variable "vcn_cidr" {
