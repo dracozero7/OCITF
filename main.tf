@@ -17,6 +17,7 @@ provider "oci" {
   user_ocid        = "ocid1.user.oc1..aaaaaaaagpnf5ea5azxgo3xzu7uagylgys6ufupaaiasndxlojlwfkuxiwva"
   fingerprint      = "e2:ec:e9:7e:74:d3:9b:5a:1a:e7:d4:6b:1d:cc:db:c5"
   private_key_path = "/home/opc/.oci/oci_api_key.pem"
+  private_key_password = ""
   region           = "us-ashburn-1"
 }
 
