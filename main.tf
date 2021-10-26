@@ -13,11 +13,11 @@ terraform {
 }*/
 
 provider "oci" {
-  tenancy_ocid     = var.tenancy_ocid
-  user_ocid        = var.user_ocid
-  fingerprint      = var.fingerprint
-  private_key_path = var.private_key_path
-  region           = var.region
+  tenancy_ocid     = "ocid1.tenancy.oc1..aaaaaaaasebb2h3a564nvf6ekja53uhy3rto4o3imikhgeuni2yyohsukesq"
+  user_ocid        = "ocid1.user.oc1..aaaaaaaagpnf5ea5azxgo3xzu7uagylgys6ufupaaiasndxlojlwfkuxiwva"
+  fingerprint      = "e2:ec:e9:7e:74:d3:9b:5a:1a:e7:d4:6b:1d:cc:db:c5"
+  private_key_path = "/home/opc/.oci/oci_api_key.pem"
+  region           = "us-ashburn-1"
 }
 
 resource "oci_core_virtual_network" "vcn" {
